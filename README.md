@@ -39,6 +39,26 @@ chamada "CONTRATOS GERADOS", com a função e nome do funcionário.
       Nas linhas 103 à 112 vemos que estamos coletando os dados, por exemplo ```employee.name = ws[f'A{i}'].value``` significa que estamos pegando na coluna "A", linha de numero "i" onde i vai de 2 (primeira linha abaixo da coluna nome até o ultimo funcionário, se for 20 funcionários vai até a linha 21 e estamos dando o valor que pegamos da lacuna do excel e inserimos para a variavel "employee.name", para que logo abaixo no documento (Contrato Modelo) ele irá procurar onde está escrito "employee.name" e irá colocar o valor da lacuna do excel ```paragraph.text = paragraph.text.replace("employee.name", employee.name)```
 
 ---
+# 📷 Screenshots do funcionamento 📷
+
+Veja as fotos abaixo: 
+
+a primeira mostra como ficou o banco de dados criado, 
+
+![image](https://github.com/xBigJhow/Automacao-Contrato-de-Trabalho/assets/103526432/00909a91-788d-47bb-854b-c99900f6f40c)
+
+
+e logo após os contratos já criados,
+
+![image](https://github.com/xBigJhow/Automacao-Contrato-de-Trabalho/assets/103526432/0ad2b8a1-5b9c-4e8b-9e60-c683440640e4)
+
+
+e por último como ficou os dados inseridos automáticamente.
+
+![image](https://github.com/xBigJhow/Automacao-Contrato-de-Trabalho/assets/103526432/19b3ccf3-791d-41ca-8290-501188bb9c1d)
+
+
+---
 # 📖🤓 AUTOR 📖🤓
 
 Feitor por **BIGJHOW**
